@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ex {
+            width: 900px;
+            padding: 25px;
+            box-sizing: border-box;
+            background-color: rgb(253, 204, 139);
+        }
+
+        .flex-container {
+            display: flex;
+            width: 800px;
+            height: 500px;
+            border: 1px solid rgb(253, 204, 139);
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        .item {
+            width: auto;
+            height: auto;
+            border: 1px solid rgb(253, 204, 139);
+
+        }
+
+        .flex-start {
+            align-content: flex-start;
+        }
+
+        .center {
+            justify-content: center;
+        }
+
+        table, th, td{
+            border: 1px solid blue;
+            border-collapse:collapse;
+            width: 225px;
+        }
+
+        th, td{
+            padding: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ex">
+        <div style="text-align: center">
+            <h1 style="color:rgb(216, 145, 112);">Các món ngon Hà Nội</h1>
+        </div>
+        <div class="flex-container flex-start center">
+            <div class="item"><img src="Ta.png" alt=""></div>
+            <div class="item" style="height: 900px; width: auto;text-align: center">
+                <table style="width:100%">
+                    <tr style="background-color: brown;" >
+                        <th style="color:white"> STT</th>
+                        <th style="color:white">Tên Món Ăn</th>
+                    </tr>
+                    <tr style="background-color: white;text-align: left;">
+                        <th>1</th>
+                        <th>Bánh cuốn Thanh Trì</th>
+                    </tr>
+                    <tr style="background-color: rgb(253, 204, 139);text-align: left;">
+                        <th>2</th>
+                        <th>Xôi Hà Nội</th>
+                    </tr>
+                    <tr style="background-color: white;text-align: left;">
+                        <th>3</th>
+                        <th>Chả cá Lã Vọng</th>
+                    </tr>
+                    <tr style="background-color: rgb(253, 204, 139);text-align: left;">
+                        <th>4</th>
+                        <th>Cháo cốc</th>
+                    </tr>
+                    <tr style="background-color: white;text-align: left;">
+                        <th>5</th>
+                        <th>Bánh gai Ninh Giang</th>
+                    </tr>
+                    <tr style="background-color: rgb(253, 204, 139);text-align: left;">
+                        <th>6</th>
+                        <th>Bún thang Hà Nội</th>
+                    </tr>
+                    <tr style="background-color: white;text-align: left;">
+                        <th>7</th>
+                        <th>Canh Lắng</th>
+                    </tr>
+                    <tr style="background-color: rgb(253, 204, 139);text-align: left;">
+                        <th>8</th>
+                        <th>Vịt quay Lạng Sơn</th>
+                    </tr>
+                </table>
+                
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

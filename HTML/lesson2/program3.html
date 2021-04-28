@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container {
+            display: flex;
+            width: 800px;
+            height: 500px;
+            border: 1px solid white;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        .item {
+            width: auto;
+            height: auto;
+            border: 1px solid white;
+
+        }
+
+        .auto {
+            align-self: auto;
+        }
+
+        .flex-start {
+            align-content: flex-start;
+        }
+
+        .number {
+            flex-basis: 600px;
+        }
+
+        .center {
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="text-align: center">
+        <h1 style="color:rgb(207, 112, 216);">Công ty Hoa tươi Nhân ái</h1>
+    </div>
+    <div class="flex-container  flex-start center">
+        <div class="item"><img src="anh.png" alt=""></div>
+        <div class="item" style="height: 900px; width: auto;">
+            <p>1.<mark style="background-color: rgb(211, 43, 226);">Giới Thiệu</mark></p>
+            <ul>
+                <li>Thành lập ngày 25/05/2007</li>
+                <li>Chuyên cung cấp các loại hoa tươi</li>
+                <li>Có trên 20 cửa hàng bán lẻ tại TP.HCM</li>
+                <li>Nhận kết giở hoa theo yêu cầu của khách hàng</li>
+            </ul>
+            <hr>
+            <p>2.<mark style="background-color: rgb(238, 130, 238);">Liên hệ</mark></p>
+            <ul>
+                <li>Điện thoại:0987654321</li>
+                <li>Địa chỉ:277 Nguyễn Văn Cừ</li>
+            </ul>
+            <p>
+                © Copyringt:
+                <b>
+                    <a href="">Trung Tâm Tinh Học - Đại Học Khoa Học Tự Nhiên TP.HCM</a>
+                </b>
+            </p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
